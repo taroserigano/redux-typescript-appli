@@ -1,6 +1,6 @@
 import { Dispatch } from "redux"
 import { ActionType } from "../action-types"
-// import { Action } from "../actions/index"
+import { Action } from "../actions/index"
 
 export const depositMoney = (amount: number) => {
     return (dispatch: Dispatch<Action>) => {
